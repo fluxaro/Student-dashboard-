@@ -125,8 +125,8 @@ src/
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/fluxaro/Student-dashboard-.git
+   cd Student-dashboard-
    ```
 
 2. **Install project dependencies**:
@@ -189,7 +189,6 @@ src/
 ---
 
 ## Author / Contact
+- **GitHub**: [@fluxaro](https://github.com/fluxaro)
+- **Repository**: [https://github.com/fluxaro/Student-dashboard-](https://github.com/fluxaro/Student-dashboard-)
 
-- **Author**: [Your Name]
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: [your.email@example.com]
