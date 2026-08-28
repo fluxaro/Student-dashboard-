@@ -47,7 +47,7 @@ The following credentials are hardcoded into `src/data/mockData.js` and verified
 ![Dashboard Dark Mode](./docs/screenshots/dashboard-dark.png)
 
 ### Course Details & Interactive Syllabus
-![Course Details](/docs/screenshots/course-details.png)
+![Course Details](./docs/screenshots/course-details.png)
 
 ### Scholar Login Portal
 ![Login Screen](/docs/screenshots/login.png)
