@@ -50,7 +50,7 @@ The following credentials are hardcoded into `src/data/mockData.js` and verified
 ![Course Details](./docs/screenshots/course-details.png)
 
 ### Scholar Login Portal
-![Login Screen](/docs/screenshots/login.png)
+![Login Screen](./docs/screenshots/login.png)
 
 ---
 
