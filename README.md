@@ -41,7 +41,7 @@ The following credentials are hardcoded into `src/data/mockData.js` and verified
 <!-- Add screenshot image files to /docs/screenshots/ and link them below -->
 
 ### Dashboard (Light Mode)
-![Dashboard Light Mode](/docs/screenshots/dashboard-light.png)
+![Dashboard Light Mode](./image.png)
 
 ### Dashboard (Dark Mode)
 ![Dashboard Dark Mode](/docs/screenshots/dashboard-dark.png)
