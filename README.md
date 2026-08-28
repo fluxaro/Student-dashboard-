@@ -44,7 +44,7 @@ The following credentials are hardcoded into `src/data/mockData.js` and verified
 ![Dashboard Light Mode](./image.png)
 
 ### Dashboard (Dark Mode)
-![Dashboard Dark Mode](/docs/screenshots/dashboard-dark.png)
+![Dashboard Dark Mode](./docs/screenshots/dashboard-dark.png)
 
 ### Course Details & Interactive Syllabus
 ![Course Details](/docs/screenshots/course-details.png)
