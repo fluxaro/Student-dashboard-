@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light Mode (Warm Alabaster & Linen Atelier) */
+  --color-canvas-bg: #FBF9F5;
+  --color-surface-card: #FFFFFF;
+  --color-surface-muted: #F3EFE9;
+  --color-ink-primary: #1C1917;
+  --color-ink-muted: #736C65;
+  --color-border-line: #E5DFD5;
+  --color-brand-terracotta: #D95D39;
+  --color-progress-spruce: #266B56;
+  --color-amber-gauge: #D97706;
+
+  /* Layered Architectural Elevation (Clean Hairline + Soft Ambient Light) */
+  --shadow-ledger-sm: 0 1px 2px -1px rgba(28, 25, 23, 0.06), 0 1px 3px 0 rgba(28, 25, 23, 0.04);
+  --shadow-ledger-md: 0 4px 12px -2px rgba(28, 25, 23, 0.05), 0 2px 4px -1px rgba(28, 25, 23, 0.03);
+  --shadow-ledger-float: 0 12px 28px -6px rgba(28, 25, 23, 0.08), 0 4px 8px -2px rgba(28, 25, 23, 0.04);
+}
+
+.dark {
+  /* Dark Mode (Obsidian Basalt & Luminous Ink) */
+  --color-canvas-bg: #111215;
+  --color-surface-card: #181A20;
+  --color-surface-muted: #1F222B;
+  --color-ink-primary: #F4F4F6;
+  --color-ink-muted: #9194A1;
+  --color-border-line: #292D38;
+  --color-brand-terracotta: #FF7A59;
+  --color-progress-spruce: #3EBA8C;
+  --color-amber-gauge: #F59E0B;
+
+  /* Dark Mode Ambient Occlusion */
+  --shadow-ledger-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-ledger-md: 0 4px 16px -2px rgba(0, 0, 0, 0.55), 0 2px 4px -1px rgba(0, 0, 0, 0.35);
+  --shadow-ledger-float: 0 12px 32px -4px rgba(0, 0, 0, 0.7), 0 4px 8px -2px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-canvas-bg);
+  color: var(--color-ink-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+/* Tabular figures for numbers & stats */
+.font-mono {
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+/* Custom scrollbar matching paper ledger style */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-canvas-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-line);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-muted);
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
