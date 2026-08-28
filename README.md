@@ -19,7 +19,7 @@ This project is a frontend-only assessment build utilizing local state persisten
 
 ## Live Demo
 
-[Live demo](your-deployment-url-here)
+[https://student-dashboard-theta-lac.vercel.app/login](https://student-dashboard-theta-lac.vercel.app/login)
 
 ### Demo Login Credentials
 
